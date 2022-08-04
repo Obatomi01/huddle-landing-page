@@ -1,0 +1,257 @@
+/* 
+
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/*******************************/
+/* GENERAL COMPONENTS */
+/*******************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.4rem;
+  font-weight: 600;
+  width: 90%;
+}
+
+.container {
+  max-width: 144rem;
+  padding: 6.4rem 0;
+  margin: 0 auto 3.6rem;
+}
+
+.btn {
+  border-radius: 32px;
+  border: none;
+  box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.07);
+  padding: 1.2rem 4.8rem;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+}
+
+.btn-to-start {
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  padding: 2.4rem 6.4rem;
+}
+
+.btn-to-start:hover,
+.btn-to-start:active {
+  background-color: hsl(322, 81%, 75%);
+}
+/*******************************/
+/* HEADER SECTION*/
+/*******************************/
+/* .logo {
+  width: 100%;
+} */
+
+.section-heading {
+  background-image: url("./images/bg-hero-desktop.svg");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.header-btn {
+  color: hsl(208, 11%, 55%);
+  background-color: #fff;
+}
+
+.header-content {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  gap: 6.4rem;
+}
+
+.header-texts {
+  display: inline-block;
+  margin: auto 0;
+  /* vertical-align: middle; */
+  width: 40%;
+  /* transform: translateY(0); */
+}
+
+.header-content img {
+  width: 50%;
+}
+
+.header-content h1,
+.header-content p {
+  margin-bottom: 3.6rem;
+}
+
+/*******************************/
+/* features SECTION*/
+/*******************************/
+
+.features {
+  padding: 12.8rem 0;
+}
+
+.feature {
+  display: flex;
+  border-radius: 24px;
+  box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.07);
+  margin-bottom: 4.8rem;
+  padding: 4.8rem 9.6rem 4.8rem 12.8rem;
+  justify-content: space-between;
+}
+
+.feature-texts {
+  width: 40%;
+  margin: auto 0;
+}
+
+.feature-texts h3 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.5;
+}
+
+.feature-texts p {
+  color: hsl(208, 11%, 55%);
+}
+
+.feature-image {
+  width: 40%;
+}
+
+/*******************************/
+/* CTA SECTION*/
+/*******************************/
+
+.cta {
+  box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.07);
+  width: 40%;
+  padding: 4.8rem 0;
+  text-align: center;
+  border-radius: 24px;
+  margin-bottom: 0;
+  background-color: #fff;
+
+  transform: translateY(50%);
+}
+
+.cta h2 {
+  margin-bottom: 2.4rem;
+}
+
+/*******************************/
+/* FOOTER SECTION*/
+/*******************************/
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #ebfbff;
+  padding: 12.8rem 0 4.8rem;
+  font-size: 1.4rem;
+}
+
+.footer {
+  margin-bottom: 0;
+  padding: 9.6rem 4.8rem 0 4.8rem;
+  position: relative;
+}
+
+.footer-logo {
+  filter: invert(87%) sepia(98%) saturate(7102%) hue-rotate(177deg)
+    brightness(110%) contrast(105%);
+  margin-bottom: 2.4rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+li {
+  margin-bottom: 2.4rem;
+}
+
+.footer-column:first-child li {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-column p {
+  width: 60%;
+  line-height: 1.75;
+}
+
+ul {
+  list-style: none;
+}
+
+.copyright {
+  position: absolute;
+  right: 0;
+}
+
+.fa-location-dot {
+  padding-top: 5.5px;
+}
+
+.fa-phone {
+  padding-top: 4px;
+}
+
+.fa-envelope {
+  padding-top: 5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3.6rem;
+}
+
+.social-icons a {
+  border: 0.5px solid #ebfbff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  color: #ebfbff;
+}
+
+.social-icons a:hover,
+.social-icons a:active {
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+
+.footer-links li:hover,
+.footer-links li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
