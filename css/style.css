@@ -73,7 +73,8 @@ h1 {
 } */
 
 .section-heading {
-  background-image: url("./images/bg-hero-desktop.svg");
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
 }
 
 header {
