@@ -75,6 +75,7 @@ h1 {
 .section-heading {
   background-image: url("../images/bg-hero-desktop.svg");
   background-size: 100%;
+  background-color: #effffd;
 }
 
 header {
