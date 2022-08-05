@@ -56,7 +56,7 @@ I will like to focus on media queries and write smoother lines of code when work
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Tomisin Eniola
 - Frontend Mentor - @Obatomi01(https://www.frontendmentor.io/profile/Obatomi01)
 
 ## Acknowledgments
