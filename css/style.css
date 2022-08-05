@@ -85,6 +85,7 @@ header {
 }
 
 .header-btn {
+  font-size: 50%;
   color: hsl(208, 11%, 55%);
   background-color: #fff;
 }
